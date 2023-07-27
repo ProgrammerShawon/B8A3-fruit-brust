@@ -25,10 +25,10 @@
   <body>
     <main class="max-w-[1920px] mx-auto">
       <!-- navbar -->
-      <section
-        class="w-full max-w-[1440px] mx-auto  lg:mt-8 px-[18px]"
-      >
-        <div class="navbar flex justify-between items-center gap-4 lg:bg-[#F85559] rounded-[600px] lg:px-[50px] py-4">
+      <section class="w-full max-w-[1440px] mx-auto lg:mt-8 px-[18px]">
+        <div
+          class="navbar flex justify-between items-center gap-4 lg:bg-[#F85559] rounded-[600px] lg:px-[50px] py-4"
+        >
           <!-- desktop -->
           <div class="navbar-center hidden lg:flex">
             <ul
@@ -100,10 +100,16 @@
         </div>
       </section>
       <!----------------------slider ------------------------- -->
-      <section class="w-full max-w-[1440px] mx-auto mt-[56px] px-[18px] rounded-[8px] overflow-hidden">
-        <div class="carousel w-full h-[240px] md:h-[350px] lg:h-auto ">
+      <section
+        class="w-full max-w-[1440px] mx-auto mt-[56px] px-[18px] rounded-[8px] overflow-hidden"
+      >
+        <div class="carousel w-full h-[240px] md:h-[350px] lg:h-auto">
           <div id="slide1" class="carousel-item relative w-full">
-            <img src="./images/banner1.png" class="w-full" class="rounded-[8px]" />
+            <img
+              src="./images/banner1.png"
+              class="w-full"
+              class="rounded-[8px]"
+            />
             <div
               class="bg-gradient-to-b from-[#121212] to-[#0C0C0C00] absolute h-[100%] w-full rounded-[8px]"
             ></div>
@@ -140,7 +146,11 @@
             </div>
           </div>
           <div id="slide2" class="carousel-item relative w-full">
-            <img src="./images/banner2.png" class="w-full" class="rounded-[8px]" />
+            <img
+              src="./images/banner2.png"
+              class="w-full"
+              class="rounded-[8px]"
+            />
             <div
               class="bg-gradient-to-b from-[#121212] to-[#0C0C0C00] absolute h-[100%] w-full rounded-[8px]"
             ></div>
@@ -177,7 +187,11 @@
             </div>
           </div>
           <div id="slide3" class="carousel-item relative w-full">
-            <img src="./images/banner3.png" class="w-full" class="rounded-[8px]" />
+            <img
+              src="./images/banner3.png"
+              class="w-full"
+              class="rounded-[8px]"
+            />
             <div
               class="bg-gradient-to-b from-[#121212] to-[#0C0C0C00] absolute h-[100%] w-full rounded-[8px]"
             ></div>
@@ -214,7 +228,11 @@
             </div>
           </div>
           <div id="slide4" class="carousel-item relative w-full">
-            <img src="./images/banner4.png" class="w-full" class="rounded-[8px]" />
+            <img
+              src="./images/banner4.png"
+              class="w-full"
+              class="rounded-[8px]"
+            />
             <div
               class="bg-gradient-to-b from-[#121212] to-[#0C0C0C00] absolute h-[100%] w-full rounded-[8px]"
             ></div>
@@ -285,7 +303,7 @@
       <section class="px-[18px]">
         <div class="max-w-[1440px] mx-auto grid lg:grid-cols-2 gap-10 mt-10">
           <div class="text-center lg:text-left">
-            <h2 class="text-[28px] lg:text-[48px] font-[800]">
+            <h2 class="text-[20px] md:text-[30px] lg:text-[48px] font-[800]">
               Deal of the day
             </h2>
             <p
@@ -345,11 +363,7 @@
               </h2>
 
               <div class="rating rating-md rating-half mt-3">
-                <input
-                  type="radio"
-                  name="rating-3"
-                  class="rating-hidden"
-                />
+                <input type="radio" name="rating-3" class="rating-hidden" />
                 <input
                   type="radio"
                   name="rating-3"
@@ -411,10 +425,10 @@
                 </button>
                 <dialog
                   id="my_modal_1"
-                  class="modal modal-bottom sm:modal-middle"
+                  class="modal modal-bottom sm:modal-middle items-center px-8 h-full"
                 >
-                  <form method="dialog" class="modal-box">
-                    <figure class="px-10 pt-10">
+                  <form method="dialog" class="modal-box rounded-[24px]">
+                    <figure class="px-10 pt-3 lg:pt-10">
                       <img
                         src="./images/fruit6.png"
                         alt=""
@@ -487,11 +501,11 @@
                       />
                     </div>
                     <div
-                      class="modal-action grid grid-cols-2 justify-center gap-8"
+                      class="modal-action grid md:grid-cols-2 justify-center gap-8"
                     >
                       <!-- if there is a button in form, it will close the modal -->
                       <button
-                        class="rounded-[8px] h-[64px] w-[110px] text-[20px] font-[800] text-[#F85559] border-[1px] border-[#F85559] justify-self-end"
+                        class="rounded-[8px] h-[64px] w-[143px] md:w-[110px] text-[20px] font-[800] text-[#F85559] border-[1px] border-[#F85559] justify-self-end"
                       >
                         Close
                       </button>
@@ -520,11 +534,7 @@
               </h2>
 
               <div class="rating rating-md rating-half mt-3">
-                <input
-                  type="radio"
-                  name="rating-5"
-                  class="rating-hidden"
-                />
+                <input type="radio" name="rating-5" class="rating-hidden" />
                 <input
                   type="radio"
                   name="rating-5"
@@ -586,9 +596,9 @@
                 </button>
                 <dialog
                   id="my_modal_2"
-                  class="modal modal-bottom sm:modal-middle"
+                  class="modal modal-bottom sm:modal-middle items-center px-8 h-full"
                 >
-                  <form method="dialog" class="modal-box">
+                  <form method="dialog" class="modal-box rounded-[24px]">
                     <figure class="px-10 pt-10">
                       <img
                         src="./images/fruit7.png"
@@ -662,11 +672,11 @@
                       />
                     </div>
                     <div
-                      class="modal-action grid grid-cols-2 justify-center gap-8"
+                      class="modal-action grid md:grid-cols-2 justify-center gap-8"
                     >
                       <!-- if there is a button in form, it will close the modal -->
                       <button
-                        class="rounded-[8px] h-[64px] w-[110px] text-[20px] font-[800] text-[#F85559] border-[1px] border-[#F85559] justify-self-end"
+                        class="rounded-[8px] h-[64px] w-[143px] md:w-[110px] text-[20px] font-[800] text-[#F85559] border-[1px] border-[#F85559] justify-self-end"
                       >
                         Close
                       </button>
@@ -695,11 +705,7 @@
               </h2>
 
               <div class="rating rating-md rating-half mt-3">
-                <input
-                  type="radio"
-                  name="rating-7"
-                  class="rating-hidden"
-                />
+                <input type="radio" name="rating-7" class="rating-hidden" />
                 <input
                   type="radio"
                   name="rating-7"
@@ -761,9 +767,9 @@
                 </button>
                 <dialog
                   id="my_modal_3"
-                  class="modal modal-bottom sm:modal-middle"
+                  class="modal modal-bottom sm:modal-middle items-center px-8 h-full"
                 >
-                  <form method="dialog" class="modal-box">
+                  <form method="dialog" class="modal-box rounded-[24px]">
                     <figure class="px-10 pt-10">
                       <img
                         src="./images/fruit8.png"
@@ -837,11 +843,11 @@
                       />
                     </div>
                     <div
-                      class="modal-action grid grid-cols-2 justify-center gap-8"
+                      class="modal-action grid md:grid-cols-2 justify-center gap-8"
                     >
                       <!-- if there is a button in form, it will close the modal -->
                       <button
-                        class="rounded-[8px] h-[64px] w-[110px] text-[20px] font-[800] text-[#F85559] border-[1px] border-[#F85559] justify-self-end"
+                        class="rounded-[8px] h-[64px] w-[143px] md:w-[110px] text-[20px] font-[800] text-[#F85559] border-[1px] border-[#F85559] justify-self-end"
                       >
                         Close
                       </button>
@@ -870,11 +876,7 @@
               </h2>
 
               <div class="rating rating-md rating-half mt-3">
-                <input
-                  type="radio"
-                  name="rating-9"
-                  class="rating-hidden"
-                />
+                <input type="radio" name="rating-9" class="rating-hidden" />
                 <input
                   type="radio"
                   name="rating-9"
@@ -937,9 +939,9 @@
 
                 <dialog
                   id="my_modal_4"
-                  class="modal modal-bottom sm:modal-middle"
+                  class="modal modal-bottom sm:modal-middle items-center px-8 h-full"
                 >
-                  <form method="dialog" class="modal-box">
+                  <form method="dialog" class="modal-box rounded-[24px]">
                     <figure class="px-10 pt-10">
                       <img
                         src="./images/fruit9.png"
@@ -1013,11 +1015,11 @@
                       />
                     </div>
                     <div
-                      class="modal-action grid grid-cols-2 justify-center gap-8"
+                      class="modal-action grid md:grid-cols-2 justify-center gap-8"
                     >
                       <!-- if there is a button in form, it will close the modal -->
                       <button
-                        class="rounded-[8px] h-[64px] w-[110px] text-[20px] font-[800] text-[#F85559] border-[1px] border-[#F85559] justify-self-end"
+                        class="rounded-[8px] h-[64px] w-[143px] md:w-[110px] text-[20px] font-[800] text-[#F85559] border-[1px] border-[#F85559] justify-self-end"
                       >
                         Close
                       </button>
@@ -1045,17 +1047,23 @@
       <!-- Meet the team section start -->
       <section class="max-w-[1440px] mx-auto px-[18px]">
         <div
-          class="relative w-full py-[120px] px-10"
-          style="background: url('./images/banner1.png');background-size: cover;background-repeat: no-repeat;background-position: center;"
+          class="relative w-full py-[25px] md:py-[45px] lg:py-[120px] px-10 rounded-[8px] overflow-hidden"
+          style="
+            background: url('./images/banner1.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+          "
         >
-          
           <div
-            class="bg-gradient-to-b from-[#121212] to-[#0C0C0CB3] absolute h-[100%] w-full z-4 top-0 left-0"
+            class="bg-gradient-to-b from-[#121212] to-[#0C0C0CB3] absolute h-[100%] w-full z-4 top-0 left-0 rounded-[8px] overflow-hidden"
           ></div>
           <div class="grid justify-center items-center relative z-5">
             <div class="text-center">
-              <h2 class="text-[32px] lg:text-[48px] font-[800] text-white">
-                Meet the team section
+              <h2
+                class="text-[20px] md:text-[30px] lg:text-[48px] font-[800] text-white"
+              >
+                Meet the team
               </h2>
               <p
                 class="text-[16px] font-[500] text-white max-w-[615px] mx-auto mt-[10px] mb-[48px]"
@@ -1137,8 +1145,10 @@
 
       <!-- Why Choose Us section start  -->
       <section class="max-w-[1440px] mx-auto px-[18px]">
-        <div class="text-center mt-[140px]">
-          <h2 class="text-[48px] font-[800] text-[#121212] mb-[24px]">
+        <div class="text-center mt-10 md:mt-16 lg:mt-[140px]">
+          <h2
+            class="text-[20px] md:text-[30px] lg:text-[48px] font-[800] text-[#121212] mb-[24px]"
+          >
             Why Choose Us
           </h2>
           <p
@@ -1197,9 +1207,7 @@
               <div
                 class="flex flex-col items-center lg:items-start text-center lg:text-left"
               >
-                <h2 class="text-[24px] font-[800] text-black">
-                  Fresh is Best
-                </h2>
+                <h2 class="text-[24px] font-[800] text-black">Fresh is Best</h2>
                 <hr
                   class="border-[1px] border-[#12121280] w-[100px] mt-[21px] mb-[16px]"
                 />
@@ -1287,7 +1295,8 @@
                 <p
                   class="text-[16px] font-[500] text-[#0C0C0C99] max-w-[236px] lg:max-w-full"
                 >
-                Professional employees are there for you to pick the most amazing and fresh fruits.
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
                 </p>
               </div>
               <div
@@ -1313,7 +1322,8 @@
                 <p
                   class="text-[16px] font-[500] text-[#0C0C0C99] max-w-[236px] lg:max-w-full"
                 >
-                Professional employees are there for you to pick the most amazing and fresh fruits.
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
                 </p>
               </div>
               <div
